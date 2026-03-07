@@ -51,8 +51,6 @@ class DataIngestion:
 
 
     
-        
-
     def export_data_to_feature_store(self, dataframe:pd.DataFrame):
         try:
             feature_store_file_path = self.data_ingestion_config.feature_store_path
