@@ -50,8 +50,8 @@ class NetworkDataExtract():
 
         except Exception as e:
             raise NetworkSecurityException(e, sys)
-        
 
+    
 if __name__ == "__main__":
     FILE_PATH = "Network_data/phishingData.csv"
     DATABASE = "NetworkSecurity"
