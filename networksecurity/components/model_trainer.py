@@ -14,8 +14,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier,GradientBoostingClassifier,RandomForestClassifier
 import mlflow
-# import dagshub
-# dagshub.init(repo_owner='sarthakj809', repo_name='NetworkSecurity', mlflow=True)
+import dagshub
+dagshub.init(repo_owner='Insidiousag', repo_name='Network-Security', mlflow=True)
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
